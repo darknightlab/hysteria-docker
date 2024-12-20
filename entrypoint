@@ -22,6 +22,7 @@ acme:
       cloudflare_api_token: ${cloudflare_api_token}
 auth:
   type: v2board
+ignoreClientBandwidth: ${ignoreClientBandwidth}
 EOF
 fi
 

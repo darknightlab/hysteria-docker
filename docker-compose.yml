@@ -11,3 +11,4 @@ services:
       - domain=
       - email=
       - cloudflare_api_token=
+      - ignoreClientBandwidth=true
