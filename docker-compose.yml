@@ -1,0 +1,13 @@
+services:
+  hysteria:
+    image: ghcr.io/darknightlab/hysteria-docker:latest
+    container_name: hysteria2
+    restart: always
+    network_mode: host
+    environment:
+      - apiHost=
+      - apiKey=
+      - nodeID=
+      - domain=
+      - email=
+      - cloudflare_api_token=
