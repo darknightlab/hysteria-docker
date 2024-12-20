@@ -19,7 +19,7 @@ acme:
   dns:
     name: cloudflare
     config:
-      cloudflare_api_token: {cloudflare_api_token}
+      cloudflare_api_token: ${cloudflare_api_token}
 auth:
   type: v2board
 EOF
